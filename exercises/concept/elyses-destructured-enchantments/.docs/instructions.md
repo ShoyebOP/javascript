@@ -83,7 +83,7 @@ pickNamedPile({ chosen, disregarded });
 // => [5, 4]
 ```
 
-## 5. Swap the picked pile
+## 6. Swap the picked pile
 
 Unfortunately the observer keeps picking the "wrong" pile, but with some clever fast magic, Elyse renames the `chosen` pile to be `disregarded` and the `disregarded` pile to be the `chosen` pile.
 She doesn't need to call a single function.
